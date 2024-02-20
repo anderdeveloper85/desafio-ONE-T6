@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia:wght@300&family=Roboto:wght@400;900&display=swap');
+
+
+:root{
+    var--corprincipal:#008000;
+    var: --corsecundaria #808080;
+    var: --cortitulo #000000;
+
+}
+.body{
+    background-color: var(--corsecundaria);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Bebas Neue,sans-serif;
+
+}
+.cabecalho {
+     
+    text-align: center;
+    color: gray;
+    background-color: black;    
+    border: 1px solid;
+    font-family:'Trebuchet MS';
+    height: 250px; 
+    margin-bottom: 10%;
+      
+}
+.cabecalho .subcabecalho{
+    height: 50px;
+    color: green;
+    font-size: 30px;
+    
+}
+
+
+
+.imagem{
+    
+    text-align: center;
+    
+}
+
+
+
+
+.container-input{
+    
+        display: flex;
+        justify-content:space-between;
+        padding: 2% 0 0 4%;
+    
+    }
+.container-input.input{
+    width: 400px;
+    height: 330px;
+
+}
+
+.input p{
+    text-align: center;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    background: transparent;
+    border: 3px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+}
+
+ 
+
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+.container-buttons button{
+background:black;
+color:green;
+font-size: medium;
+border-radius: 10px;
+text-decoration: none;
+width: 150px;
+height: 50px;
+margin-left: 4%;
+cursor: pointer;
+}
+
+.btn-copiar{
+    background:black;
+    color:green;
+        border:2px var(--cortitulo);
+        border-radius: 10px;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        margin-bottom: 10%;
+        cursor: pointer;
+        margin-right: 10%;
+        font-size: 20px;
+}
+
+.container-buttons button:hover{
+    border: 2px;
+    background:green;
+    color:black;
+    transform:scale(1.1);
+        
+}
+
+.btn-copiar:hover{
+    border: 2px;
+    background:green;
+    color:black;
+    transform:scale(1.1);
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+
+}
+
